@@ -24,11 +24,18 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/gtMgPlO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+v 1.0
+
+<img src='https://i.imgur.com/gtMgPlO.gif'/>
+
+v 1.1 
+
+<img src='https://i.imgur.com/3xrGbcc.gif'/>
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+  ### v 1.1
+   * Made visual changes to the app to make it more appealing.
+   * Added custom font to the app.
 
 ## License
 
