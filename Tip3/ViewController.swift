@@ -9,11 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var numberOnScreen:Double = 0;
+   
 
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    
+    
+    @IBAction func numbers(_ sender: UIButton)
+       {
+           billField.text = billField.text! + String(sender.tag-1)
+        numberOnScreen = Double(billField.text!)!
+       }
+       
+
+    @IBAction func buttons(_ sender: UIButton) {
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
