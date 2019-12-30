@@ -23,6 +23,11 @@ class ViewController: UIViewController {
        {
            billField.text = billField.text! + String(sender.tag-1)
         numberOnScreen = Double(billField.text!)!
+        
+        if sender.tag < 11 {
+            calculateTip(numberOnScreen)
+        }
+        
        }
        
 
