@@ -28,6 +28,16 @@ class ViewController: UIViewController {
 
     @IBAction func buttons(_ sender: UIButton) {
         
+        if sender.tag == 11
+        {
+            billField.text = ""
+            numberOnScreen = 0;
+        }
+        
+        else if sender.tag == 12 {
+            billField.text = billField.text! + String(".")
+            numberOnScreen = Double(billField.text!)!
+        }
         
     }
     
