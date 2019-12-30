@@ -17,7 +17,7 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 
 ## Video Walkthrough 
@@ -32,10 +32,17 @@ v 1.1
 
 <img src='https://i.imgur.com/3xrGbcc.gif'/>
 
+v 1.2
+
+<img src='https://i.imgur.com/aecU81x.gif'/>
+
 ## Notes
   ### v 1.1
    * Made visual changes to the app to make it more appealing.
    * Added custom font to the app.
+  
+  ### v 1.2
+   * Added always visible keyboard
 
 ## License
 
